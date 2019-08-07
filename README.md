@@ -19,7 +19,7 @@ This file contains the code need to reach the results proposed on Course Project
 
 **PDF File:** _*Getting and Cleaning Data Course Project.pdf*_
 
-R script on a better formated. This file has the purpose to help some one that wants to reproduce this analysis.
+This file has the purpose to help some one that wants to reproduce this analysis.
 This file include all code, comments and the scripts outputs in a structured and consice format.
 
 **Output Tidy Datasets**
