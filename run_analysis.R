@@ -112,12 +112,13 @@ library(stringr)
 
 # Write TidyDataSet to a CSV file
   
-   write.csv(SummarizedTidyDataSet, "./SummarizedTidyDateSet.csv")        
+   write.table(SummarizedTidyDataSet, "./SummarizedTidyDateSet.txt",row.name=FALSE  )   
+#   write.csv(SummarizedTidyDataSet, "./SummarizedTidyDateSet.csv")        
     
 # Zip files to be push on github
    
    zip(zipfile = "./TidyDataset.zip", files =  "./TidyDataSet.csv",
-                  zip = Sys.getenv("R_ZIPCMD", "zip"), flags = "-r9X")
+                  zip = Sys.getenv("R_ZIPCMD",  "zip"), flags = "-r9X")
    
    zip(zipfile = "./SummarizedTidyDateSet.zip", files = "./SummarizedTidyDateSet.csv",
                   zip = Sys.getenv("R_ZIPCMD", "zip"), flags = "-r9X")

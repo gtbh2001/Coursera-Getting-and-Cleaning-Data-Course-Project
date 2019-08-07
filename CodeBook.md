@@ -50,7 +50,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 * Write **SummarizedTidyDataSet**to a CSV file to prepare to submit
 
-* Zip datasets to prepare for submit
+* Zip datasets to prepare for  submit
 
 ### The dataset includes the following files:
 
