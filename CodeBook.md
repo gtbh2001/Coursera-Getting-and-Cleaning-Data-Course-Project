@@ -2,7 +2,7 @@
 title: "Getting and Cleaning Data Course Project"
 output: html_notebook
 ---
-
+ 
 ## CodeBook
 
 This dataset is a subset of data collected from the link below.

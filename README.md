@@ -17,7 +17,7 @@ Code book that describes the variables, the data, and any transformations or wor
 
 This file contains the code need to reach the results proposed on Course Project
 
-**HTML File:** _*Course_Project_Notebook.html*_
+**PDF File:** _*Getting and Cleaning Data Course Project.pdf*_
 
 R script on a better formated. This file has the purpose to help some one that wants to reproduce this analysis.
 This file include all code, comments and the scripts outputs in a structured and consice format.
