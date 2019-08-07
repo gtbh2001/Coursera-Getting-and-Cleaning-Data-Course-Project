@@ -11,7 +11,7 @@ This source data represent data collected from the accelerometers from the Samsu
 
 **CodeBook : **  _*CodeBook.md*_
 
-Code book that describes the variables, the data, and any transformations or work erformed to clean up the data
+Code book that describes the variables, the data, and any transformations or work performed to clean up the data
 
 **R Script:** _*run_analysis.r*_
 

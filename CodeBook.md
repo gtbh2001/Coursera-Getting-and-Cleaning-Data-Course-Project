@@ -58,7 +58,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 - SummarizedTidyDataSet.cvs - the means of every Variable grouped by Subject & Activity 
 - TidayDatavar.txt - All var names
 - CodeBook.md  - CodeBook describing the data set, varnames and the transformations 
-                required to create this data set
+                required to clean original dataset and create this data set
 
 ### License:
 

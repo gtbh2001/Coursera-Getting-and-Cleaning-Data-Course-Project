@@ -26,7 +26,7 @@ library(stringr)
 
       # Downloads data source file
 
-      # Avoid to download file if it is already was download saving time during debugin time
+      # Avoid to download file if it is already was download saving time during debug time
       
       if( !file.exists(ZipFileName) )
           download.file(Url, ZipFileName)
@@ -83,7 +83,7 @@ library(stringr)
     
     subjecttestdf <- read.delim2("./data/UCI HAR Dataset/test/subject_test.txt", header = FALSE, sep="",  
                                   stringsAsFactors = FALSE, dec = ".", numerals = "no.loss", 
-                                  col.names = "SubjectNum") 
+                                 col.names = "SubjectNum") 
     
     testdf <- bind_cols(subjecttestdf, ytestdf, xtestdf)
                
